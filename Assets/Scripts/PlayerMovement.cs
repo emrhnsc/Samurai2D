@@ -31,8 +31,10 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb2d;
     Animator animator;
 
+
     //Scripts
     CameraShake cameraShake;
+    EnemyController enemyController;
 
     void Awake()
     {
@@ -43,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
         //Scripts
         cameraShake = GameObject.FindGameObjectWithTag("ShakeCam").GetComponent<CameraShake>();
+        enemyController = GetComponent<EnemyController>();
     }
 
 

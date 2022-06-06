@@ -235,14 +235,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1253316721, guid: eb64e3bbca87cac448911ac08363ce4a, type: 3}
-      propertyPath: m_Radius
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1253316721, guid: eb64e3bbca87cac448911ac08363ce4a, type: 3}
-      propertyPath: m_Offset.x
-      value: 2.7
-      objectReference: {fileID: 0}
     - target: {fileID: 6181111937025908353, guid: eb64e3bbca87cac448911ac08363ce4a, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -1272,14 +1264,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 9148838022743610246, guid: 775b706ad84e88f4aaadc31163355a01, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.51
-      objectReference: {fileID: 0}
-    - target: {fileID: 9148838023199236826, guid: 775b706ad84e88f4aaadc31163355a01, type: 3}
-      propertyPath: attackRange
-      value: 1.15
-      objectReference: {fileID: 0}
     - target: {fileID: 9148838023199236828, guid: 775b706ad84e88f4aaadc31163355a01, type: 3}
       propertyPath: m_RootOrder
       value: 1

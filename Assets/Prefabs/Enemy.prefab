@@ -196,6 +196,7 @@ MonoBehaviour:
   swordHitVolume: 1
   deathClip: {fileID: 8300000, guid: 489015bd022710c4eadfb2bb29963bf0, type: 3}
   deathVolume: 1
+  isAlive: 0
   playerPosition: {fileID: 0}
 --- !u!114 &413715958
 MonoBehaviour:
@@ -213,7 +214,6 @@ MonoBehaviour:
   target: {fileID: 0}
   range: 3
   moveSpeed: 2
-  doFollow: 0
 --- !u!58 &1253316721
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -227,6 +227,6 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2.31, y: 0}
+  m_Offset: {x: 2.7, y: 0}
   serializedVersion: 2
-  m_Radius: 0.51
+  m_Radius: 0.5

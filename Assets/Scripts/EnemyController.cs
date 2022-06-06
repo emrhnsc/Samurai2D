@@ -18,14 +18,12 @@ public class EnemyController : MonoBehaviour
     Animator animator;
     SpriteRenderer spriteRenderer;
     public Transform playerPosition;
-    CircleCollider2D circleCollider;
 
     void Awake()
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         playerPosition = FindObjectOfType<PlayerMovement>().GetComponent<Transform>();
-        circleCollider = GetComponent<CircleCollider2D>();
     }
 
     void Start()

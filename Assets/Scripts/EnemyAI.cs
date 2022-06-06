@@ -95,7 +95,7 @@ public class EnemyAI : MonoBehaviour
 
     void Follow()
     {
-        if (doFollow)
+        if (doFollow && enemyController.isAlive)
         {
             if (transform.position.x > target.position.x)
             {
